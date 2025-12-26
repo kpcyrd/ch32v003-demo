@@ -57,7 +57,7 @@ RUSTC_BOOTSTRAP=1 cargo run --release
 ## About `PD1`
 
 I haven't tested this myself, but I read a few times this pin is the same one
-as `SWD` used for flashing and debugging.
+as `SWD` and used for flashing and debugging.
 
 Using this pin in your programs may interfere with further
 flashing/programming, although it's possible to [unbrick], you probably want to
