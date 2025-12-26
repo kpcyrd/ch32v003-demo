@@ -56,6 +56,15 @@ wlink erase --method power-off --chip CH32V003
 
 Again, I didn't test this myself.
 
+## Useful references
+
+- https://baileytownsend.dev/articles/rust-on-the-10-cent-microcontroller
+- https://albertskog.se/ch32v-in-rust/
+- https://github.com/ch32-rs/ch32-hal
+- https://github.com/ch32-rs/wlink
+- https://github.com/ch32-rs/ch32-hal-template
+- https://github.com/wagiminator/CH32V003-GameConsole
+
 ## License
 
 `MIT-0`
