@@ -34,11 +34,6 @@ RUSTC_BOOTSTRAP=1 cargo build --release
 The project has been setup to use [wlink] to flash the firmware (using a
 WCH-LinkE).
 
-**Note:** The usb-c port is only used for power supply and can't be used for
-programming. It also commonly misses the 5.1 kΩ resistor so it's not detected
-as a proper device by many usb-c chargers/powerbanks. You may need an usb-a to
-usb-c cable, since those can't negotiate and give 5V unconditionally.
-
 [wlink]: https://github.com/ch32-rs/wlink
 
 ```
@@ -48,6 +43,12 @@ WCH-LinkE   GND   | <-> | G     ch32v003
             SWDIO | <-> | SWD
 ------------------´     `---------------
 ```
+
+> [!IMPORTANT]
+> The usb-c port is only used for power supply and can't be used for
+programming. It also commonly misses the 5.1 kΩ resistor so it's not detected
+as a proper device by many usb-c chargers/powerbanks. You may need an usb-a to
+usb-c cable, since those can't negotiate and give 5V unconditionally.
 
 ```
 RUSTC_BOOTSTRAP=1 cargo run --release
