@@ -19,6 +19,10 @@ using the devboard that is commonly sold at around €0.50-€0.70 on AliExpress
 On the product page it showed a button near the programming pins, but the
 boards I received don't have one, this doesn't seem to matter though.
 
+- **CPU:** `48MHz`
+- **Flash:**  `16KB`
+- **RAM:** `2KB`
+
 ## Compile
 
 ```
