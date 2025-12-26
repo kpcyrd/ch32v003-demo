@@ -7,6 +7,16 @@ repository.
 [ch32-hal]: https://github.com/ch32-rs/ch32-hal
 [ch32-hal-template]: https://github.com/ch32-rs/ch32-hal-template
 
+![](.github/pinout.png)
+
+Note I'm _not_ using the nanoch32v003 (they look similiar, but are sold for
+~€1.59 and have pins on all 4 sides of the MCU, ch32v003f4u6), instead I'm
+using the devboard that is commonly sold at around €0.50-€0.70 on AliExpress
+(pins only on 2 sides, ch32v003f4p6).
+
+On the product page it showed a button near the programming pins, but the
+boards I received don't have one, this doesn't seem to matter though.
+
 ## Compile
 
 ```
