@@ -74,6 +74,7 @@ Again, I didn't test this myself.
 - https://github.com/ch32-rs/wlink
 - https://github.com/ch32-rs/ch32-hal-template
 - https://github.com/wagiminator/CH32V003-GameConsole
+- https://github.com/cnlohr/ch32fun
 
 ## License
 
