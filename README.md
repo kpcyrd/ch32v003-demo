@@ -7,7 +7,11 @@ repository.
 [ch32-hal]: https://github.com/ch32-rs/ch32-hal
 [ch32-hal-template]: https://github.com/ch32-rs/ch32-hal-template
 
+### Development Board Pinout
+
 ![pcb](.github/pinout.png)
+
+### Microcontroller Chip Pinout (For further reference)
 
 ![ch32v003f4p6](https://raw.githubusercontent.com/Tengo10/pinout-overview/main/pinouts/CH32v003/ch32v003f4p6.svg)
 
