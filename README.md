@@ -7,7 +7,9 @@ repository.
 [ch32-hal]: https://github.com/ch32-rs/ch32-hal
 [ch32-hal-template]: https://github.com/ch32-rs/ch32-hal-template
 
-![](.github/pinout.png)
+![pcb](.github/pinout.png)
+
+![ch32v003f4p6](https://raw.githubusercontent.com/Tengo10/pinout-overview/main/pinouts/CH32v003/ch32v003f4p6.svg)
 
 Note I'm _not_ using the nanoch32v003 (they look similiar, but are sold for
 ~€1.59 and have pins on all 4 sides of the MCU, ch32v003f4u6), instead I'm
