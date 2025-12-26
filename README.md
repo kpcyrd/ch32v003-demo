@@ -48,6 +48,8 @@ leave this pin unused.
 
 [unbrick]: https://baileytownsend.dev/articles/rust-on-the-10-cent-microcontroller#unbricking-your-chip
 
+Copying over the relevant command for posterity:
+
 ```
 wlink erase --method power-off --chip CH32V003
 ```
